@@ -31,4 +31,4 @@ def run_local_proxy(
     port: int = 5000,
     debug: Optional[bool] = None,
 ):
-    app.run(debug=debug, port=port)
+    app.run(debug=debug, port=port, host="0.0.0.0")
